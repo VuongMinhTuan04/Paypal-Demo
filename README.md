@@ -35,22 +35,22 @@ Dự án này trình bày cách tích hợp xử lý thanh toán PayPal vào m�
    cd paypal-integration
 
 ## Thêm Thư Viện
-<dependency>
-    <groupId>com.paypal.sdk</groupId>
-    <artifactId>rest-api-sdk</artifactId>
-    <version>1.14.0</version>
-</dependency>
+-<dependency>
+    -<groupId>com.paypal.sdk</groupId>
+    -<artifactId>rest-api-sdk</artifactId>
+    -<version>1.14.0</version>
+-</dependency>
 
-<dependency>
-    <groupId>com.paypal.sdk</groupId>
-    <artifactId>paypal-core</artifactId>
-    <version>1.7.2</version>
-</dependency>
+-<dependency>
+    -<groupId>com.paypal.sdk</groupId>
+    -<artifactId>paypal-core</artifactId>
+    -<version>1.7.2</version>
+-</dependency>
 
 ## Cấu Hình
-paypal.client-id=YOUR_PAYPAL_CLIENT_ID
-paypal.client-secret=YOUR_PAYPAL_CLIENT_SECRET
-paypal.mode=sandbox
+-paypal.client-id=YOUR_PAYPAL_CLIENT_ID
+-paypal.client-secret=YOUR_PAYPAL_CLIENT_SECRET
+-paypal.mode=sandbox
 
 - Lấy client-id và client-secret trong Paypal Developer (Phải tạo tài khoản riêng và chọn vào tài khoản cá nhân)
 - Mode nếu chỉ dùng để test hoặc thanh toán không phải thực tế thì dùng sandbox (Nếu thanh toán 1 cách thực tế thì dùng live)
